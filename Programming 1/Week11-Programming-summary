@@ -1,0 +1,20 @@
+##Week11-Programming-summary
+
+	#OOP
+		**Override**
+		- do not use == to compare objects
+		- use equals(): checks if all the data members of the object are the same as the current object
+		- can use equals inside an equals() method
+		- Can use multiple classes
+		- the variable:  - public
+						 - private
+		- private can be used in other classes
+		- constructors: initialize the values for attributes of an object
+		
+		- Static: can access static only data members
+		**belongs to the class
+		- Non-Stanic: can access static and non-static members
+		**belongs to the object
+		- access private variables by get and set
+		-> if you are looking for a year (ex:years.getyear())
+##

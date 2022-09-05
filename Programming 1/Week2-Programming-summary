@@ -1,0 +1,54 @@
+#The Identifier
+		1) correct name: -letters
+						 -numbers
+						  -_
+						  -$
+						   -no number at first
+						    -no keywords
+
+
+		2) self-documenting: -avgNum
+							-camelcase
+							 *class: XxxXxx
+						 	*var; xxxXxx
+							*method: xxxXxx()
+
+
+		3) consistency: calcScore(), calcAvg() v+n for method, adj+n for variable
+
+
+	#Data Types
+		-2 types
+
+			-Primitive Data Types (basic data types java defined)
+
+		-Integral  (int numbers and characters)
+			*1 byte
+			*2 short
+			*2 char
+			*4 int
+			*8 long
+
+		-Floating
+			*4 float 		3.14f
+			*8 double		3.14
+
+		-Bolean
+
+			#Data type conversion
+				*Java only calculate one operation each time
+					(3 + 5 * 2) / 3 -> 5 * 2
+					*Java only calculate two values with the same data type
+					3 + 3.14		coverted to    ->   3.0 + 3.14
+					*int + int =int
+					*double + double = double
+					*char + char =int *** sprcial one, when calculate with char, char will always be converted to int.
+					* int + char = int
+					*int + double = double
+					*float + double = double *** convert the less accurate one to more accurate one
+
+
+		#Century and Decade
+		year -> century and decade
+			century: year / 100 + 1
+			decade: year % 100 / 10 * 10

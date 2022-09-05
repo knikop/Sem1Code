@@ -1,0 +1,59 @@
+##Week5-Programming-summary
+
+		#Method
+			-Value-returning methods
+				methods that return the data type. 
+			 	methods return a value of a specific data type using the return statement
+			-Void methods
+				methods that do not have a return data type
+				methods do not use a return statement return a value
+			-first row - header -> all ports of a method
+			-the statements - the body -> defines how the method behaves
+			-public means outside of the class: everyone has access to the method
+			-private means outside of the class: no one has access to the method
+			-accessModifier(s) returnType methodName(formal parameter list) {
+			statements
+			}
+
+			-Void Method
+			- returns nothing
+			- print methods = void methods
+			-Boolean Method
+			-Method to return a Boolean value
+			
+			ex: -isEven
+				-isPositive
+				-isValid
+
+			-JavaDoc: write documentation for each method
+			-@param for parameters
+			-@return for return value
+			-Each-method is an isolated universe: there will be no conflict bewteen methods
+			-What happened in one universe will not affect the other universe
+			
+			ex:	-min(double num1, double num2)
+			 	-max(double num1, double num2)
+				-isEven(double num)
+				-isOdd(double num)
+				-isPositive(double num)
+				-Isnegative(double num)
+
+		#Boolean Operations
+			-results -> Boolean values
+			-Boolean operations : -> 2 levels
+			#Level 1:
+			->		>=
+			->		<=
+ 			->		>
+ 			->		<
+ 			->		==		
+ 			->		!=
+ 			-all operations give results: true or false
+ 			-use = to compare to values
+ 			-use == to compare two strings
+ 			#Level 2: 
+ 			-advanced Boolean operations
+ 			->	And &&
+ 			->	Or ||
+ 			->	Not !
+ ##

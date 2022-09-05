@@ -1,0 +1,49 @@
+##Week3-Programming-Summary	
+	#Variable
+		#Cant change data type after its declared, its value can be changed
+			-int num;  	declare an int variable num
+			-double num;  	ERROR, num is declared, and you cannot change its data type
+			-datadouble num2;	CORRECT, num2 is not declared, and you can declare it.
+			-boolean valid = false;  declare a Boolean variable valid, and initialize it to false
+			-double sum = 0; 	declare a double variable sum, and initialize it to 0
+			-sum = 3;  		change the value of variable sum
+
+			#Some signs in java:
+								"+"
+								"-"
+								"*"
+								"/"
+								"*"	
+
+			#Counts in java:
+
+				++count;			//			count++;		count = count + 1
+				--timer;			//			timer--;		timer = timer - 1
+
+				-Maybe
+				-sometimes they are the same,
+				-sometimes they are different
+
+	#Important Actions for Coding
+		
+		#Java Actions: Scanner ; contains pre-defined methiods for our use to imput
+			-Scanner = class
+			-console = object
+			-Class looks like a data type
+					-import java.util.Scanner;
+					-System.out.print(); 
+					-System.out.println(); 
+					-System.out.printf(); 
+					-Scanner console = new Scanner(System.in); 
+					-num = console.nextInt();
+					-num = console.nextDouble();
+					-next()
+					-nextLine()
+					-public static void main(String[] args) {}
+
+		#Formating Code:
+					-%d: int
+					-%f: double
+					-%c: char
+					-%s: String
+##

@@ -1,0 +1,44 @@
+##Week9-Programming-summary
+	
+	reminder == ! is used for is not
+
+	#Break and Continue
+	  -“break” and “continue” only exists in a loop
+	  -break will stop a loop completely
+	  -continue will only stop the current iteration for a loop
+	  ex:	-prints 0 and 2 while skips 1
+	  		for (int i = 0; i < 3; i++) {
+			if (i == 1)
+			continue;
+			System.out.print(i);
+			} 
+			-only prints 0
+			for (int i = 0; i < 3; i++) {
+			if (i == 1)
+			break;
+			System.out.print(i);
+			} 
+			-results can be very different depending on which one you use
+
+			-Continue will make the loop continue
+			-Break will literally break the loop, it will make it stop
+			(break the entire loop and executes the code after the loop)
+			$infinity loop = a loop that never ends
+			
+	#Unit Test
+		QA: quality assurance
+		Tester: Unit test
+		TDD: test-driven development
+		-> to enable test code push ctrl + F6
+		-> if your code fails than you need to modify it so that it works
+		->to do a unit test you have to:
+		-1. write  the header and the doc of the method
+		-2. list some of the possible inputs/outputs pairs
+		-3. convert those parts in the last step into some testing codes
+		-4. write the body of the method
+		-5. test the method with the unit tests in step 3
+		-if all the unit tests are passed, 
+		then your code is robust and ready to go
+		-if your code fails any of the unit tests,
+		then you need to go back to modify your code in step 4
+##

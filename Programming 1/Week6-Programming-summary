@@ -1,0 +1,58 @@
+##Week6-Programming-summary
+	
+	#Control Structure
+		->3 different control structures
+		-Sequence 
+		-Selection 
+		-Loop
+		#Sequence Control Structure ----> simplest control sequence
+			-the statements are executed line after line
+			-you cant skip a statement
+			-or go back to the statement before
+		#Selection
+			-executes statements that depend on a condition
+			-skips some parts of code
+			-example of this converting a # score to a letter score
+			-or calculating your salary
+			-results depend on the condition
+			-condition has 2 values: 	-true 
+										-false
+			-you put these condition in ()
+		#If and Else
+			-ex:if(logical expression)
+					statement;
+			-logical expression = condition
+			-There is always a condition after the if 
+			-There is no condition after the else 
+			-Else handles all the situations that haven't been put in the if before
+			-condition operator ----> (condition)?value1:value2	
+		#Conditional operator:-will first check if the condition is true or false
+								 -if it is true,
+								 -then the whole formula equals to value1
+								 -if the condition is false
+								 -then the whole formula equals to value2
+			-creates 2 branches: the if
+								and the else
+			-sometimes one if and else isnt enough
+			-so you do if(age < 25)
+						price = 0
+						else
+							if(age >= 75)
+							price = 50
+						else
+							price = 100
+			-If and else if are always followed by a condition
+			-Else is never followed by a condition
+			-bad ---> to put a “;” after the if, else if or else
+			- no ";" after if --- else if --- else
+			-are not statements
+		#Switch Case
+			-not as powerful as if else
+			-can only use "==" in the condition
+			-can be used to compare things
+			-If one case is matched, then the statements under it will be executed.
+			-When one case starts
+			-code will be continue until either: 
+									1. a “break” is reached.
+									2. reach the end of the switch			
+##

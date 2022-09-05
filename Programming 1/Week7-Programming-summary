@@ -1,0 +1,46 @@
+##Week7-Programming-summary
+
+		#Loop
+			-Selection control structure ---> skip pieces of code
+			-It cant go back to the code before
+			-So we loop it----we make the program check the code until we tell it to stop
+
+		#The loop control structure
+			-go back to previous code
+			-use it more than once 
+			-3 different types of loops: -While loops
+										 -do while loops
+										 -for loops(which are the most used)
+		#While Loop
+			-basic loop structure
+			-similar ti the "if"
+			-while(condition){
+					statement1;
+					statement2;
+				}
+			-Like if,   while 1st checks the condition
+			-If false, statement will be skipped
+			-If true, statement used/executed
+			-Then go back to while line and do it again
+			-dont forget the = sign in the loop if you do then you wrote the loop wrong
+			-use ( <= , >= , == ) for while loop
+			-make the loop execute some #s then stop
+			-when the condition is coded, it cannot be changed
+			-can only change the value in the statement
+			-will be changed from true to false 
+			-use "i++" and/or "++i" in code
+			-The loop would continue on forever if the index isnt changed
+				(infinity loop)
+			-if theres an infinity loop
+						the code will continue forever
+			-can also be used with a string
+
+		#Do...While Loop
+			-similar to While
+			-execute the statements before the condition for one time
+			-least used loop control structure 
+			-used when you loop at least once
+			-do
+				statement;
+			while(logical expression);		
+##

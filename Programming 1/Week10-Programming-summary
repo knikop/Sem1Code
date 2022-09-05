@@ -1,0 +1,17 @@
+##Week10-Programming-summary
+
+	#OOP
+		OOP has many advantages over regular programming
+		faster and easier to use
+		provides a clear structure for the programs
+		helps to keep the code DRY 
+		makes code easier to maintain and modify
+		can be used to create apps with less code and that take less time to develop
+
+		2 major concepts in OOP are Classes and Objects
+		Classes are like the group that the objects are appart of 
+		ex: Singer/Rapper
+		Objects are like the items in the group
+		ex: Eminem, Three Days Grace, Skillet
+		you can access an object of one class in a completely different class
+##

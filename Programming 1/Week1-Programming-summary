@@ -1,0 +1,41 @@
+## The computer
+		CPU(Central Processing Unit) -> brain of the computer
+		runs the programs
+			3 types---------Arithmetic/Logic Unit: Logic calculations
+					Floating Point Unit: number calculations
+					Control Unit: order of the instructions
+				CPU 2 classes->32-bit(old/X86)
+							->64-bit(new/x64)
+				Hardrives->Hard Disc Drive(HDD)
+							->Solid State Drive(SSD)
+				Memory->RAM
+						->ROM---Read Only Memory----booting computer up
+						->Cache(L1&L2)
+		2 Signals
+							-Analog signal(waveforms)
+							-Digital signal(sequence of 1s and 0s)
+		3 Computer Languages
+								-Machine Code
+								-Assembly Code
+								-Java Code
+		Then theres bytecode,close to Java code
+		Java
+			Java Virtual Machine(JVM)
+									-virtual CPU-> understands the bytecode
+			Java Runtime Environment(JRE)
+									-contains JVM
+			Java Developing Kit(JDK)
+									-compiler
+									-debugger
+									-larger Java library
+									-contains JRE
+		Bugs and Debugging
+							-Compiler Errors
+							-Run-time Errors
+							-Logic Errors
+	Data Representations
+				-Decimal(10 symbols)  0,1,2....9
+				-Binary(2 symbols)	0 & 1
+				-Octal(8 symbols)	0,1,2,...,7 
+				-Hexadecimal(16 symbols)	0,1,2,...,9,+ a,b,c,d,e,f
+##

@@ -1,0 +1,39 @@
+##Week8-Programming-summary
+
+ #Loop
+ 	#For Loop
+	-i for iteration before loop
+	-declare the counter
+	-check the counter 
+	-change the value of the counter: 
+	 -> one before the loop
+	  -> one in the ()
+	   -> one in the loop body
+
+	-3 things seperated by ; and not a ,
+	ex: for (initial expression; logical expression; update expression)
+	statement;
+	-Initial expression: place you declare the counter (ex: i) and initialize it.
+	-Logical expression: the regular condition you have in while and do while.
+	-Update expression: the statement that you change the value of the counter like i++
+	-Order is the same as the while loop
+	-for loop can be written as a while loop
+
+	#Break and Continue
+	  -“break” and “continue” only exists in a loop
+	  -break will stop a loop completely
+	  -continue will only stop the current iteration for a loop
+	  ex:	-prints 0 and 2 while skips 1
+	  		for (int i = 0; i < 3; i++) {
+			if (i == 1)
+			continue;
+			System.out.print(i);
+			} 
+			-only prints 0
+			for (int i = 0; i < 3; i++) {
+			if (i == 1)
+			break;
+			System.out.print(i);
+			} 
+			-results can be very different depending on which one you use
+##	
